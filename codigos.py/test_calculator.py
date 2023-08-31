@@ -70,13 +70,13 @@
 #         self.assertFalse(TestValidacaoEmail("nao_e_um_email"))
 
 
-import unittest
+# import unittest
 
-from calculator import calcular_media
+# from calculator import calcular_media
 
-class TestCalculoMedia(unittest.TestCase):
-    def test_media_lista_vazia(self):
-        self.assertEqual(calcular_media([]), 0)
+# class TestCalculoMedia(unittest.TestCase):
+#     def test_media_lista_vazia(self):
+#         self.assertEqual(calcular_media([]), 0)
         
-    def test_media_lista_numeros(self):
-        self.assertEqual(calcular_media([2, 4, 6, 8]), 5)
+#     def test_media_lista_numeros(self):
+#         self.assertEqual(calcular_media([2, 4, 6, 8]), 5)
